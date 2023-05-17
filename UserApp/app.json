@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Hike-Up User App",
+    "slug": "Hike-UpUserApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/hikeup.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/hikeup.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.render.userapp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.render.userapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/hikeup.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBiLeTTiLkm-BkYg7mY6bYgqQJdCDDcQBU"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bce1574d-fed1-4f8e-bd38-ada70de7fe38"
+      }
+    }
+  }
+}
